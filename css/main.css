@@ -1,21 +1,4 @@
-/** {
-		padding: 0;
-		margin: 0;
-}
 
-html {
-		background: #F3F3F3;
-}
-
-{
-		background: #053d4e;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: linear-gradient( to bottom right, rgba(6, 0, 255, 0.3), rgba(255, 0, 0, 0.3));
-}*/
 *{
   font-family: 'Playfair Display', serif;
 }
@@ -38,6 +21,12 @@ nav button span{
 }
 .text-white{
 	color: white;
+}
+button.navbar-toggle.text-white{
+  background-color: #D9B3DA;
+}
+span.icon-bar{
+  background-color: black;
 }
 .arrow a{
   text-decoration: none;
@@ -122,9 +111,16 @@ nav button span{
 	border-radius: 50%;
 	padding: 0% 20% 0% 20%;
 }
-
-
-
+i.icon-chevron-down{
+  padding-top: 3%;
+  font-size: 3em;
+}
+.container-hero{
+  padding-bottom: 9%;
+}
+.m-t{
+  margin-top: 10%;
+}
 
 .mb{
   margin-bottom: 5%;
@@ -138,10 +134,22 @@ nav button span{
 .pb{
   padding-bottom: 5%;
 }
+.pl{
+  padding-left: 7%;
+}
+.pd-top{
+  padding-top: 3%;
+}
+.fs{
+  font-size: 1.4em;
+}
+
+
+
 /*Skills*/
 #skills{
 	background-image: url(../img/upfeathers.png);
-  padding: 5% 0%;
+  padding: 5% 3% 5% 0% ;
 }
 .skills-diagram {
   font-size: 16px;
@@ -189,35 +197,6 @@ nav button span{
   margin: .25em auto;
 }
 
-/* Provide 10 different sizes */
-/*.skills-diagram .skill-2 {
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  
-  background-color: rgba(201, 155, 129, .3);
-  border-color: rgba(201, 155, 129, 1);
-  color: rgba(201, 155, 129, 1);
-}
-.skills-diagram .skill-3 {
-  vertical-align: middle;
-  
-  width: 3em;
-  height: 3em;
-  line-height: 3em;
-  background-color: rgba(138, 138, 140, .3);
-  border-color: rgba(138, 138, 140, 1);
-  color: rgba(138, 138, 140, 1);
-}
-.skills-diagram .skill-4 {
-  width: 4em;
-  height: 4em;
-  line-height: 4em;
-  
-  background-color: rgba(234, 112, 97, .3);
-  border-color: rgba(234, 112, 97, 1);
-  color: rgba(234, 112, 97, 1);
-}*/
 .skills-diagram .skill-5 {
   vertical-align: bottom;
 
@@ -231,9 +210,9 @@ nav button span{
 .skills-diagram .skill-6 {
   vertical-align: top;
   
-  width: 7em;
-  height: 7em;
-  line-height: 7em;
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
   
   background-color: rgba(195, 192, 100, .3);
   border-color: rgba(195, 192, 100, 1);
@@ -476,4 +455,10 @@ opacity: 1;
 #contact .redes{
   display: inline-block;
   padding: 3% 4% 0% 0%;
+}
+#contact{
+  color: white;
+}
+#contact .redes{
+  padding-left: 3%;
 }
