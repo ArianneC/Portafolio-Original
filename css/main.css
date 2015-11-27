@@ -462,3 +462,6 @@ opacity: 1;
 #contact .redes{
   padding-left: 3%;
 }
+#contact .redes a{
+  text-decoration: none;
+}
