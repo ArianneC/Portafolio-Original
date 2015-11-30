@@ -1,6 +1,6 @@
 
 *{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Coming Soon', cursive;
 }
 nav .navbar{
 	border-bottom: 2px solid #c2973c;
@@ -105,7 +105,7 @@ span.icon-bar{
 .about-me p{
 	font-size: 1.4em;
   margin: 5% 0% 0% 5%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Coming Soon', cursive;
 }
 .circle img{
 	border-radius: 50%;
@@ -363,7 +363,7 @@ top: 0;
 left: 0;
 padding-top: 100px;
 text-shadow: none;
-font-family: 'Open Sans', sans-serif;
+ font-family: 'Coming Soon', cursive;
 }
 
 .thumbnail-view img {
